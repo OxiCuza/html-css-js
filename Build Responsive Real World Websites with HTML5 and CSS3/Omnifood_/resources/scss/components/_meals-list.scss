@@ -1,0 +1,31 @@
+.meals {
+    &__list {
+        list-style: none;
+        width: 100%;
+        @include clearfix;
+    }
+
+    &__item {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    &__figure {
+        overflow: hidden;
+        background-color: $color-black;
+
+        img {
+            opacity: .6;
+            width: 100%;
+            height: auto;
+            transform: scale(1.2);
+            transition: all .3s;
+
+            &:hover {
+                opacity: 1;
+                transform: scale(1.03);
+            }
+        }
+    }
+}

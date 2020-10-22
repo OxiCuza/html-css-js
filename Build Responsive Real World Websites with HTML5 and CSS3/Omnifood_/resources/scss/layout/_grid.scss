@@ -1,0 +1,7 @@
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    &::after {@include clearfix;}
+    
+}

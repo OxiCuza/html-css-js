@@ -1,0 +1,44 @@
+.step-box {
+
+    &:first-child {
+        margin-top: 3rem;
+        padding-right: 3%;
+        text-align: right;
+    }
+
+    &:last-child {
+        margin-top: 7.5rem;
+        padding-left: 3%;
+    }
+}
+
+.works-step {
+    margin-bottom: 4rem;
+
+    &:last-of-type {
+        margin-bottom: 5rem;
+    }
+
+    &__img {
+        width: 40%;
+    }
+
+    &__number {
+        color: $color-orange;
+        border: 2px solid $color-orange;
+        display: inline-block;
+        height: 5.5rem;
+        width: 5.5rem;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 3rem;
+        padding: 6px;
+        float: left;
+        margin-right: 2rem;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}

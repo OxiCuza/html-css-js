@@ -1,0 +1,25 @@
+.section-features,
+.section-cities {
+  padding: 8rem 0;
+}
+
+.section-meals {
+  padding: 0;
+}
+
+.section-steps {
+  padding: 8rem 0;
+  background-color: $color-dark-1;
+}
+
+.section-testimonials {
+  padding: 8rem 0;
+  background-image: linear-gradient(
+      rgba($color-black, 0.85),
+      rgba($color-black, 0.85)
+    ),
+    url("img/back-customers.jpg");
+  background-size: cover;
+  color: $color-white;
+  background-attachment: fixed;
+}

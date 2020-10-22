@@ -1,0 +1,30 @@
+blockquote {
+  font-size: 1.9rem;
+  font-style: italic;
+  line-height: 145%;
+  padding: 2%;
+  margin-top: 5rem;
+  position: relative;
+
+  &:before {
+    content: "\201C";
+    font-size: 10rem;
+    display: block;
+    left: -0.5rem;
+    position: absolute;
+    top: -0.5rem;
+  }
+  & cite {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+    & img {
+      width: 45px;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 2rem;
+    }
+  }
+}

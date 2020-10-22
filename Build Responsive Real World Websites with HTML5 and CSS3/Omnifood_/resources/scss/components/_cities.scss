@@ -1,0 +1,33 @@
+.cities {
+
+    &__figure {
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__features {
+        font-size: 1.5rem;
+
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: $color-orange;
+            padding-bottom: 2px;
+            text-decoration: none;
+            border-bottom: 1px solid $color-orange;
+            transition: all .4s;
+
+            &:hover {
+                color: inherit;
+                border-bottom: none;
+            }
+        }
+
+    }
+}

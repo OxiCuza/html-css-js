@@ -1,0 +1,44 @@
+.btn {
+
+    &, &:link, &:visited {
+        display: inline-block;
+        padding: 1rem 3rem;
+        font-weight: 300;
+        font-size: 2rem;
+        text-decoration: none;
+        border-radius: 20rem;
+        border: 1px solid $color-orange;
+        transition: all .2s;
+    }
+
+    &--full {
+        background-color: $color-orange;
+        color: $color-white;
+        margin-right: 1.5rem;
+    }
+
+    &--ghost {
+        color: $color-orange;
+
+        &:hover, &:active {
+            color: $color-white;
+        }
+    }
+
+    &:hover, &:active {
+        background-color: $color-orange-dark;
+        border: 1px solid $color-orange-dark;
+    }
+
+    &--app {
+        img {
+            height: 5rem;
+            width: auto;
+        }
+        
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+}

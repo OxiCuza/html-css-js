@@ -1,0 +1,14 @@
+{
+  "name": "omnifood-",
+  "version": "1.0.0",
+  "description": "practicing about HTML5 and SCSS for frontend web dev",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass resources/scss/main.scss resources/css/style.css -w"
+  },
+  "author": "OxiCuza",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
