@@ -38,7 +38,7 @@ html {
     margin-top: 3rem; }
 
 .heading--tertiary {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem; }
 
 .heading-description {
@@ -235,6 +235,30 @@ blockquote {
       vertical-align: middle;
       margin-right: 2rem; }
 
+.plan-box {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 5px; }
+  .plan-box div {
+    padding: 15px;
+    border-bottom: 2px solid #eee; }
+    .plan-box div:last-child {
+      text-align: center;
+      border: none; }
+    .plan-box div .plan-price {
+      color: #e67e22;
+      font-size: 300%;
+      font-weight: 300;
+      margin-bottom: +10px; }
+      .plan-box div .plan-price span {
+        font-size: 40%; }
+    .plan-box div ul {
+      list-style: none; }
+      .plan-box div ul li {
+        line-height: 3.5rem; }
+
 .row {
   max-width: 1140px;
   margin: 0 auto; }
@@ -277,3 +301,7 @@ blockquote {
   background-size: cover;
   color: #fff;
   background-attachment: fixed; }
+
+.section-plans {
+  padding: 8rem 0;
+  background-color: #eee; }

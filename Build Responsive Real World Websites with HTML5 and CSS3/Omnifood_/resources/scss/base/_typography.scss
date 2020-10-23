@@ -1,5 +1,8 @@
 .heading {
-    &--primary, &--secondary, &--tertiary {
+
+    &--primary,
+    &--secondary,
+    &--tertiary {
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -31,7 +34,7 @@
     }
 
     &--tertiary {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: 1.5rem;
     }
 
