@@ -1,6 +1,8 @@
 .btn {
 
-    &, &:link, &:visited {
+    &,
+    &:link,
+    &:visited {
         display: inline-block;
         padding: 1rem 3rem;
         font-weight: 300;
@@ -20,12 +22,14 @@
     &--ghost {
         color: $color-orange;
 
-        &:hover, &:active {
+        &:hover,
+        &:active {
             color: $color-white;
         }
     }
 
-    &:hover, &:active {
+    &:hover,
+    &:active {
         background-color: $color-orange-dark;
         border: 1px solid $color-orange-dark;
     }
@@ -35,7 +39,7 @@
             height: 5rem;
             width: auto;
         }
-        
+
         &:not(:last-child) {
             margin-right: 1.5rem;
         }
