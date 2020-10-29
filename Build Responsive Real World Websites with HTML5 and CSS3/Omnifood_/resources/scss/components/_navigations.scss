@@ -1,7 +1,7 @@
 .nav-list {
     float: right;
     list-style: none;
-    
+
     &__item {
         display: inline-block;
         margin-left: 4rem;
@@ -9,7 +9,8 @@
 
     &__link {
 
-        &:link, &:visited {
+        &:link,
+        &:visited {
             color: $color-white;
             text-decoration: none;
             text-transform: uppercase;
@@ -19,9 +20,38 @@
             transition: all .2s;
         }
 
-        &:hover, &:active {
+        &:hover,
+        &:active {
             border-bottom: 2px solid $color-orange;
         }
     }
+}
 
+.footer-nav,
+.social-links {
+    list-style: none;
+    text-align: start;
+    margin-bottom: 2rem;
+
+    li {
+        display: inline-block;
+        margin-right: 20px;
+
+        a {
+            color: $color-dark-2;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            padding-bottom: 5px;
+            transition: all .2s;
+
+            &:hover {
+                border-bottom: 1px solid $color-white;
+                color: $color-white;
+            }
+        }
+    }
+}
+
+.social-links {
+    text-align: end;
 }

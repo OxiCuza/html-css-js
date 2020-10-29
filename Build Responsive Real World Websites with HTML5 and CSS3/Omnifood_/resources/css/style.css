@@ -132,6 +132,30 @@ html {
   .nav-list__link:hover, .nav-list__link:active {
     border-bottom: 2px solid #e67e22; }
 
+.footer-nav,
+.social-links {
+  list-style: none;
+  text-align: start;
+  margin-bottom: 2rem; }
+  .footer-nav li,
+  .social-links li {
+    display: inline-block;
+    margin-right: 20px; }
+    .footer-nav li a,
+    .social-links li a {
+      color: #ccc;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 5px;
+      transition: all .2s; }
+      .footer-nav li a:hover,
+      .social-links li a:hover {
+        border-bottom: 1px solid #fff;
+        color: #fff; }
+
+.social-links {
+  text-align: end; }
+
 .features__box {
   padding: 1%; }
 
@@ -323,3 +347,10 @@ blockquote {
 .section-plans {
   padding: 8rem 0;
   background-color: #eee; }
+
+footer {
+  background-color: #333;
+  padding: 5rem 0;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center; }
