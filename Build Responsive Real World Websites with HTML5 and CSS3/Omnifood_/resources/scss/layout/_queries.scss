@@ -20,12 +20,19 @@
 
     section {
         padding: 60px 0;
-        font-size: 14px;
     }
 
     .heading-description {
         width: 80%;
         margin: 0 10%;
+    }
+
+    .plan-box {
+        font-size: 12px;
+    }
+
+    .contact-form {
+        width: 75%;
     }
 
     footer {
@@ -37,4 +44,62 @@
 @media only screen and (max-width: 767px) {}
 
 // Small phone from 0 to 480px
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .u-mt--m {
+        margin-top: 1rem;
+    }
+
+    .nav-list {
+        width: 50%;
+
+        &__item {
+            display: block;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+    }
+
+    .row {
+        padding: 0 4%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .header {
+        &__text-box {
+            width: 100%;
+            padding: 0 4%;
+        }
+    }
+
+    .heading {
+        &--primary {
+            font-size: 30px;
+        }
+
+        &--secondary {
+            font-size: 25px;
+        }
+
+        &--tertiary {
+            font-size: 20px;
+        }
+
+        &-description {
+            width: 100%;
+            margin: 0 0;
+        }
+    }
+
+    .step-box:first-child {
+        text-align: center;
+    }
+
+    .contact-form {
+        .row {
+            margin-bottom: 5px;
+        }
+    }
+}

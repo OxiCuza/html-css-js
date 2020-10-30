@@ -361,10 +361,43 @@ footer {
   html {
     font-size: 9px; }
   section {
-    padding: 60px 0;
-    font-size: 14px; }
+    padding: 60px 0; }
   .heading-description {
     width: 80%;
     margin: 0 10%; }
+  .plan-box {
+    font-size: 12px; }
+  .contact-form {
+    width: 75%; }
   footer {
     font-size: 14px; } }
+
+@media only screen and (max-width: 480px) {
+  .u-mt--m {
+    margin-top: 1rem; }
+  .nav-list {
+    width: 50%; }
+    .nav-list__item {
+      display: block;
+      margin-bottom: 10px;
+      text-align: right; }
+  .row {
+    padding: 0 4%; }
+  section {
+    padding: 30px 0; }
+  .header__text-box {
+    width: 100%;
+    padding: 0 4%; }
+  .heading--primary {
+    font-size: 30px; }
+  .heading--secondary {
+    font-size: 25px; }
+  .heading--tertiary {
+    font-size: 20px; }
+  .heading-description {
+    width: 100%;
+    margin: 0 0; }
+  .step-box:first-child {
+    text-align: center; }
+  .contact-form .row {
+    margin-bottom: 5px; } }
