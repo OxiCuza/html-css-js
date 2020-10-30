@@ -115,6 +115,27 @@ html {
 .btn--app:not(:last-child) {
   margin-right: 1.5rem; }
 
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.99);
+  z-index: +1;
+  box-shadow: 0 2px 2px rgba(204, 204, 204, 0.7); }
+  .sticky-nav .header__logo {
+    display: none; }
+  .sticky-nav .header__logo--black {
+    height: 5rem;
+    padding: 3px 0; }
+  .sticky-nav .nav-list__link:link, .sticky-nav .nav-list__link:visited {
+    color: #000;
+    padding: 1.1rem 0; }
+  .sticky-nav .u-mt--m {
+    margin-top: 1.8rem; }
+  .sticky-nav .u-mt--xs {
+    margin-top: .3rem; }
+
 .nav-list {
   float: right;
   list-style: none; }
