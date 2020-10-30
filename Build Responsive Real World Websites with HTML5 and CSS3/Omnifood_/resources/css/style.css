@@ -126,6 +126,7 @@ html {
   .sticky-nav .header__logo {
     display: none; }
   .sticky-nav .header__logo--black {
+    display: initial;
     height: 5rem;
     padding: 3px 0; }
   .sticky-nav .nav-list__link:link, .sticky-nav .nav-list__link:visited {
@@ -370,6 +371,8 @@ footer {
     height: 10rem;
     width: auto;
     float: left; }
+  .header__logo--black {
+    display: none; }
 
 @media only screen and (max-width: 1200px) {
   .row {
