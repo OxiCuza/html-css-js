@@ -300,6 +300,31 @@ blockquote {
   .contact-form textarea {
     height: 100px; }
 
+section {
+  padding: 8rem 0; }
+
+.section-meals {
+  padding: 0; }
+
+.section-steps {
+  background-color: #eee; }
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("img/back-customers.jpg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed; }
+
+.section-plans {
+  background-color: #eee; }
+
+footer {
+  background-color: #333;
+  padding: 5rem 0;
+  font-size: 16px;
+  color: #ccc;
+  text-align: center; }
+
 .row {
   max-width: 1140px;
   margin: 0 auto; }
@@ -325,32 +350,21 @@ blockquote {
     width: auto;
     float: left; }
 
-.section-features,
-.section-cities,
-.section-form {
-  padding: 8rem 0; }
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%; }
+  .header__text-box {
+    width: 100%;
+    padding: 0 2%; } }
 
-.section-meals {
-  padding: 0; }
-
-.section-steps {
-  padding: 8rem 0;
-  background-color: #eee; }
-
-.section-testimonials {
-  padding: 8rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("img/back-customers.jpg");
-  background-size: cover;
-  color: #fff;
-  background-attachment: fixed; }
-
-.section-plans {
-  padding: 8rem 0;
-  background-color: #eee; }
-
-footer {
-  background-color: #333;
-  padding: 5rem 0;
-  font-size: 16px;
-  color: #ccc;
-  text-align: center; }
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 9px; }
+  section {
+    padding: 60px 0;
+    font-size: 14px; }
+  .heading-description {
+    width: 80%;
+    margin: 0 10%; }
+  footer {
+    font-size: 14px; } }
