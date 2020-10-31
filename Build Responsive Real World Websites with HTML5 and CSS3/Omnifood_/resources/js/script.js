@@ -29,4 +29,28 @@ $(document).ready(function() {
             }
         }
     });
+
+    $('#feature-animate').waypoint(function(direction) {
+        $('#feature-animate').addClass('animate__animated animate__fadeInUp');
+    }, {
+        offset: '50%'
+    });
+
+    $('#image-animate').waypoint(function(direction) {
+        $('#image-animate').addClass('animate__animated animate__fadeInUpBig');
+    }, {
+        offset: '50%'
+    });
+
+    $('#city-animate').waypoint(function(direction) {
+        $('#city-animate').addClass('animate__animated animate__zoomIn');
+    }, {
+        offset: '50%'
+    });
+
+    $('#plan-animate').waypoint(function(direction) {
+        $('#plan-animate').addClass('animate__animated animate__pulse');
+    }, {
+        offset: '50%'
+    });
 });
